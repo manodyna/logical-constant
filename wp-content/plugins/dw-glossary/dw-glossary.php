@@ -12,7 +12,7 @@ Domain Path: /languages
 Text Domain: dw-glossary
 */
 
-add_action( 'init', 'dw_glossary_post_type_init' );
+// add_action( 'init', 'dw_glossary_post_type_init' );
 add_action( 'init', 'dw_glossary_taxanomy_init' );
 function dw_glossary_post_type_init() {
 	$labels = array(
